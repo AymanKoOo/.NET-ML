@@ -7,11 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AForge.Imaging" Version="2.2.5" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
     <PackageReference Include="Tesseract" Version="5.2.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\testPics\" />
     <Folder Include="tessdata\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\testPics\201902090120212021.jpg" />
+    <None Include="wwwroot\testPics\Untitled.jpg" />
   </ItemGroup>
 
 </Project>
